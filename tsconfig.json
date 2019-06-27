@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "isolatedModules": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": false,
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "lib": ["dom", "es2015", "es2016"],
+    "outDir": "ts",
+    "baseUrl": "src"
+  },
+  "include": ["src/index.ts", "src/**/*"]
+}

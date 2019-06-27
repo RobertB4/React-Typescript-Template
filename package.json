@@ -1,0 +1,35 @@
+{
+  "name": "react-ts-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "author": "Robert Bausmert",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.16",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "ts-loader": "^6.0.3",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.1"
+  }
+}
